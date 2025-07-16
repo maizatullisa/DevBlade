@@ -10,11 +10,13 @@
       href="assets/images/logo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="<?= base_url('assets/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/swiper.min.css') ?>">
+
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="manifest" href="manifest.json" />
     <title>Home - Quizio PWA HTML Template</title>
-  <link href="style.css" rel="stylesheet"></head>
+  <link href="assets/style.css" rel="stylesheet"></head>
   <body class="-z-20">
     <div
       class="container min-h-dvh relative overflow-hidden py-8 dark:text-white dark:bg-black"
@@ -1159,11 +1161,13 @@
     <!-- Logout Modal End -->
 
     <!-- Js Dependencies -->
-    <script src="assets/js/plugins/plugins.js"></script>
-    <script src="assets/js/plugins/plugin-custom.js"></script>
-    <script src="assets/js/plugins/circle-slider.js"></script>
-    <script src="assets/js/main.js"></script>
-  <script defer src="index.js"></script></body>
+    <script src="<?= base_url('assets/js/index.js') ?>"></script>
+<script src="<?= base_url('assets/js/main.js') ?>"></script>
+<script src="<?= base_url('assets/js/plugins/plugins.js') ?>"></script>
+<script src="<?= base_url('assets/js/plugins/plugin-custom.js') ?>"></script>
+<script src="<?= base_url('assets/js/plugins/circle-slider.js') ?>"></script>
+
+</body>
 
 <!-- Mirrored from softivuslab.com/html/quizio/live-demo/home.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Jul 2025 05:04:28 GMT -->
 </html>
