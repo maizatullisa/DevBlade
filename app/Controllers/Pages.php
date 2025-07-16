@@ -18,7 +18,7 @@ class Pages extends BaseController
     }
     
     public function home(){
-        return view ('pages/home');
+        return view ('pages/quizio/live-demo/home');
     }
 
     //bisa di tambahin sesuai dgn kebutuhan
